@@ -1,6 +1,3 @@
-let atual = 0;
-let perguntaAtual;
-
 const caixaPricipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
@@ -48,6 +45,8 @@ const perguntas = [
   },
 ];
 
+let atual = 0;
+let perguntaAtual;
 
 function mostraPergunta() {
   perguntaAtual = perguntas[atual];
