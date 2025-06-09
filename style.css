@@ -6,6 +6,7 @@
     --cor-texto: rgb(230, 243, 227);
 }
 
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet);
 
 body{
     background-color: var(--cor-fundo);
@@ -14,6 +15,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: 'Roboto Mono', sans-serif;
 }
 
 .caixa-principal{
@@ -22,8 +24,10 @@ body{
     max-width: 600px;
     text-align: center;
     padding: 20px;
+    font-family: 'Roboto Mono', sans-serif;
 }
 
 h1{
     color: var(--cor-destaque);
+    font-family: 'Roboto Mono', sans-serif;
 }
