@@ -6,7 +6,7 @@
     --cor-texto: rgb(230, 243, 227);
 }
 
-@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap);
 
 body{
     background-color: var(--cor-fundo);
