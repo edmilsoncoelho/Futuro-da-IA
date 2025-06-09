@@ -11,26 +11,26 @@ const perguntas = [
       "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
     alternativas: [
       {
-        texto: "Isso é assustador!",
-        afirmacao: "Afirmacao"
+        texto: "Isso me dá medo!",
+        afirmacao: "No início ficou com muito medo, pois algo não-vivo que pode interagir com um humano como se fosse um deles é assustador!"
       },
       {
-        texto: "Isso é maravilhoso!",
-        afirmacao: "Afirmacao"
+        texto: "Isso é muito bom para ser verdade!",
+        afirmacao: "Já fiquei animado logo de cara, pois achei interessante poder interagir com algo não-humano que pode me ajudar nas tarefas do dia-a-dia!"
       }  
     ]
   },
   {
     enunciado:
-      "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+      "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
     alternativas: [
       {
         texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-        afirmacao: "Afirmacao"
+        afirmacao: "Logo de inicio eu já fui procurar saber mais sobre o assunto e usei a própria ferramenta para me explicar melhor como ela funcionada."
       },
       {
         texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-        afirmacao: "Afirmacao"
+        afirmacao: "Fiquei com receio de utilizar a ferramenta de IA para as tarefas, apesar das pesquisas que fiz, ainda não tive confiança para tal."
       }
     ]
   },
@@ -40,11 +40,11 @@ const perguntas = [
     alternativas: [
       {
         texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-        afirmacao: "Afirmacao"
+        afirmacao: "Buscando informações sobre o tema, descobri que apesar de trazer inúmeras possibilidades, a IA ainda assim precisa de uma mente humana para produzir seus prompts, e revisar seu trabalho."
       },
       {
         texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
-        afirmacao: "Afirmacao"
+        afirmacao: "Não me senti confortável em pensar que a IA pode substituir diversas funções que hoje são desenvolvidas por pessoas reais."
       }  
     ]    
   },
@@ -54,11 +54,11 @@ const perguntas = [
     alternativas: [
       {
         texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-        afirmacao: "Afirmacao"
+        afirmacao: "Fico preocupado com os direitos autorais das imagens e outras coisas criadas pela IA, pois ela na verdade apenas reproduz com base em padrões, a criatividade deixa a desejar."
       },
       {
         texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-        afirmacao: "Afirmacao"
+        afirmacao: "A facilidade com que a IA cria imagens e outras coisas pode faciliar o trabalho criativo de alguns designers e assim melhorar a qualidade e diminuir o tempo gasto para tais tarefas."
       }  
     ]
   },
@@ -68,11 +68,11 @@ const perguntas = [
     alternativas: [
       {
         texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-        afirmacao: "Afirmacao"
+        afirmacao: "Podemos confiar segamente na IA? Temos que ter cuidado com dados sensíveis e também ao copiar e colar todo conteúdo gerado pela IA. O ideal é revisar e procurar as fontes onde a informação foi retirada para evitar erros."
       },
       {
         texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-        afirmacao: "Afirmacao"
+        afirmacao: "Manter a atenção a dados sensíveis e revisar os trabalhos feitos por IA são essenciais, pois da mesma maneira que um humano pode errar, a IA também é suscetível a erros."
       }  
     ]
   },
