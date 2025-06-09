@@ -12,7 +12,7 @@ const perguntas = [
     alternativas: [
       {
         texto: "Isso me dá medo!",
-        afirmacao: "No início ficou com muito medo, pois algo não-vivo que pode interagir com um humano como se fosse um deles é assustador!"
+        afirmacao: "No início fiquei com muito medo, pois algo não-vivo que pode interagir com um humano como se fosse um deles é assustador!"
       },
       {
         texto: "Isso é muito bom para ser verdade!",
@@ -26,11 +26,11 @@ const perguntas = [
     alternativas: [
       {
         texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-        afirmacao: "Logo de inicio eu já fui procurar saber mais sobre o assunto e usei a própria ferramenta para me explicar melhor como ela funcionada."
+        afirmacao: "Então, logo de inicio eu já fui procurar saber mais sobre o assunto e usei a própria ferramenta de IA para me explicar melhor como ela funcionava."
       },
       {
         texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-        afirmacao: "Fiquei com receio de utilizar a ferramenta de IA para as tarefas, apesar das pesquisas que fiz, ainda não tive confiança para tal."
+        afirmacao: "Tive receio de utilizar a ferramenta de IA para as tarefas, apesar das pesquisas que fiz, ainda não tive confiança total para isso."
       }
     ]
   },
@@ -40,11 +40,11 @@ const perguntas = [
     alternativas: [
       {
         texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-        afirmacao: "Buscando informações sobre o tema, descobri que apesar de trazer inúmeras possibilidades, a IA ainda assim precisa de uma mente humana para produzir seus prompts, e revisar seu trabalho."
+        afirmacao: "Busquei informações sobre o tema, estudei e descobri que apesar de trazer inúmeras possibilidades, a IA ainda assim precisa de uma mente humana para produzir seus prompts, e revisar seu trabalho, logo não coloca em risco o trabalho humano."
       },
       {
         texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
-        afirmacao: "Não me senti confortável em pensar que a IA pode substituir diversas funções que hoje são desenvolvidas por pessoas reais."
+        afirmacao: "Meu maior medo é em relação a não me sentir confortável em pensar que a IA pode substituir diversas funções que hoje são desenvolvidas por pessoas reais. Será que isso será bom para o futuro?"
       }  
     ]    
   },
@@ -54,7 +54,7 @@ const perguntas = [
     alternativas: [
       {
         texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-        afirmacao: "Fico preocupado com os direitos autorais das imagens e outras coisas criadas pela IA, pois ela na verdade apenas reproduz com base em padrões, a criatividade deixa a desejar."
+        afirmacao: "Fico preocupado com os direitos autorais das imagens e outras coisas criadas pela IA, pois ela na verdade apenas reproduz com base em padrões, a criatividade deixa a desejar. Será que não estaremos diminuindo o cognitivo das próximas gerações?"
       },
       {
         texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
@@ -68,11 +68,11 @@ const perguntas = [
     alternativas: [
       {
         texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-        afirmacao: "Podemos confiar segamente na IA? Temos que ter cuidado com dados sensíveis e também ao copiar e colar todo conteúdo gerado pela IA. O ideal é revisar e procurar as fontes onde a informação foi retirada para evitar erros."
+        afirmacao: "Podemos confiar cegamente na IA? Temos que ter cuidado com dados sensíveis e também ao copiar e colar todo conteúdo gerado pela IA. O ideal é revisar e procurar as fontes onde a informação foi retirada para evitar erros. Tomara que esteja errado em meus pensamentos, e quando estiver lendo isso no futuro não estejamos num apocalipse da IA."
       },
       {
         texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-        afirmacao: "Manter a atenção a dados sensíveis e revisar os trabalhos feitos por IA são essenciais, pois da mesma maneira que um humano pode errar, a IA também é suscetível a erros."
+        afirmacao: "Mas aprendi que devo manter os cuidados a compartilhar dados sensíveis e revisar os trabalhos feitos pela IA é algo essencial, pois da mesma maneira que um humano pode errar, a IA também é suscetível a erros. Tomara que não tenha acontecido um apocalipse da IA e eu esteja podendo realizar essa retrospectiva em paz."
       }  
     ]
   },
@@ -110,7 +110,7 @@ function respostaSelecionada(opcaoSelecionada){
     }
 
 function mostraResultado(){
-  caixaPerguntas.textContent = "Em 2049...";
+  caixaPerguntas.textContent = "Lá em 2025... o que eu pensava sobre a IA:";
   textoResultado.textContent = historiaFinal;
   caixaAlternativas.textContent = "";
 }

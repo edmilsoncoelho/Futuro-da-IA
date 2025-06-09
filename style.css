@@ -38,7 +38,7 @@ button{
     color: var(--cor-texto);
     border: none;
     border-radius: 15px;
-    font-family: 'Saira', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     padding: 15px;
     transition: background-color 0.3s;
 }
@@ -47,4 +47,17 @@ button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
+
+.caixa-perguntas{
+    padding: 15px;
+}
+
+.caixa-alternativas{
+    padding: 15px;
+}
+
+.caixa-resultado{
+    padding: 15px;
+}
+
   
