@@ -97,6 +97,7 @@ function mostraAlternativas() {
   for (const alternativas of perguntaAtual.alternativas) {
     const botaoAlternativas = document.createElement("button");
     botaoAlternativas.textContent = alternativas.texto;
+    botaoAlternativas.style.fontFamily = 'Roboto Mono, sans-serif';
     botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativas))
     caixaAlternativas.appendChild(botaoAlternativas);
   }
